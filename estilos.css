@@ -1,0 +1,85 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    background-color: #333333;
+    padding: auto;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height:50px;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+nav a{
+    font-weight: bold;
+}
+.pie-de-pagina{
+    background-color: black;
+    color: white;
+
+}
+body{
+    background-color: #FFFFE0;
+}
+table{
+    width: auto;
+    border-collapse: collapse;
+}
+tr:nth-of-type(1) > th{
+    font-style: italic;
+}
+tr:nth-of-type(2) > td{
+    background: greenyellow;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+tr:nth-of-type(3) > td{
+    background-color: greenyellow;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+tr:nth-of-type(4) > td{
+    background-color: greenyellow;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+tr:nth-of-type(5) > td{
+    background-color: greenyellow;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+tr:nth-of-type(6) > td{
+    background-color: greenyellow;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+tr:nth-of-type(7) > td{
+    background-color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+tr:nth-of-type(8) > td{
+    background-color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+tr:nth-of-type(7) > th{
+    font-style: italic;
+    background-color: red;
+}
+tr:nth-of-type(2) > th{
+    font-style: italic;
+    background-color: greenyellow;
+}
+.usuario{
+    background-color: grey;
+    padding: 10px;
+  width: 300px;
+}
